@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.am.testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.581 s <<< FAILURE! - in com.am.testrunner.TestRunner
+Check login with valid credentials(Check login application with valid credentials)  Time elapsed: 0.166 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.am.stepdefinition.LoginStepDefinition
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+
