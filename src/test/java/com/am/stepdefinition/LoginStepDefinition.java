@@ -26,6 +26,7 @@ public class LoginStepDefinition {
 			login.selectloginbutton();
 			login.verifyAvtarIcon();
 			System.out.println("login the application successfully");
+			System.out.println("test passed for user_validate_login_application");
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());
 			e.printStackTrace();
